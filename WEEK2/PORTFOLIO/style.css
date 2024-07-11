@@ -1,0 +1,99 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #c1c1c1 3px solid;
+}
+
+header h1 {
+    float: left;
+    display: inline;
+    padding: 10px;
+}
+
+header p {
+    display: inline;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    float: right;
+    list-style: none;
+    margin-top: 25px;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+section {
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+section#about {
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+section#about p {
+    margin-bottom: 20px;
+}
+
+section#about img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+section#projects {
+    padding: 20px;
+}
+
+section#projects .project {
+    background: #f4f4f4;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

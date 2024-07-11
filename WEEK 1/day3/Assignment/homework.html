@@ -1,0 +1,53 @@
+<html>
+<head>
+    <title>
+        New Tab 
+    </title>
+    <style>
+        body{
+            background-image: url("image.jpg");
+            background-size: 100%;
+        }
+        .color{
+            color: white;
+        }
+        .idam{
+            padding-top: 5%;
+        }
+        .alavu{
+            width: 20%;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <div>
+            <h1 style="color: white;">Welcome to the Fun Holidays</h1>
+            <hr>
+            <br>
+            <h3 style="color: white;">Enter the foloowing details to continue !</h3>
+        </div>
+        <form class="idam">
+            <label class="color">Enter your name</label><br>
+            <br>
+            <input type="name" required pattern="[a-z A-Z]+" class="alavu"/><br>
+            <br>
+            <label class="color">Enter your phone number</label><br>
+            <br>
+            <input type="number" required pattern="[0-9]+ {10,}" class="alavu"/><br>
+            <br>
+            <label class="color">Enter your Email</label><br>
+            <br>
+            <input type="email" required class="alavu"/><br>
+            <br>
+            <label class="color">Enter your Password</label><br>
+            <br>
+            <input type="password"required pattern="[a-zA-Z]+" class="alavu"/><br>
+            <br>
+            <input type="submit" value="Let's Go"/>
+        </form>
+        <br>
+        <footer style="color: white;">&copy;Copyrights Indian Act 2021</footer>
+    </center>
+</body>
+</html>
